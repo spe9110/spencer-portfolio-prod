@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1PY0F9BMV7"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-1PY0F9BMV7');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Spencer wawaku</title>
+
+    <!-- SEO -->
+    <meta name="author" content="Spencer wawaku">
+    <meta name="description" content="I specialize in creating responsive and optimized websites, improving website speed, providing SEO services, and offering website animations, photography, and digital marketing solutions. Explore my portfolio and services.">
+    <meta name="robots" content="index, follow">
+
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&family=EB+Garamond:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Oxygen:wght@300;400;700&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@400;500;700;900&family=Rochester&display=swap" rel="stylesheet">
+
+        <!-- Open Graph Protocol -->
+    <meta property="og:title" content="Spencer Wawaku - Frontend Developer and Digital Marketer">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.spencer-wawaku.com">
+    <meta property="og:description" content="I specialize in creating responsive and optimized websites, improving website speed, providing SEO services, and offering website animations, photography, and digital marketing solutions. Explore my portfolio and services.">
+    <meta property="og:image" content="https://www.spencer-wawaku.com/photos/TOONME-SPENCER.JPG">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/25e32fa677.js" crossorigin="anonymous"></script>
+
+    <!-- ionicon -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- emailjs -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("Ffh04ZzCUlWgXjS9Z");
+    })();
+    </script>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div class="photo">
+                <img src="./photos/IMG_5470-min(1).JPG" alt="">
+            </div>
+            <div class="name">
+                <h3>Spencer.</h3>
+            </div>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#videos">videos</a></li>
+                <!-- <li><a href="">Blog</a></li> -->
+                <button class="true-contact">
+                    <a href="#get-in-touch">Get in touch</a>
+                </button>
+            </ul>
+
+        </nav>
+        <div class="contact">
+            <button id="theme-toggle">
+                <span class="icon"><ion-icon name="sunny"></ion-icon></span>
+            </button>
+            <button class="true-contact">
+                <a href="#get-in-touch">Get in touch</a>
+            </button>
+            <button type="button" class="nav-button" onclick="navFunc()">
+                <span class="sr-only"></span>
+            </button>
+        </div>
+    </header>
+    <!-- header -->
+
+    <!-- main -->
+    <main>
+        <section id="home" class="hero">
+            
+            <div class="container">
+                <div class="info-profil">
+                    <div class="name-hero">
+                        <h1>Hello, it's <br>
+                            <span>Spencer WAWAKU</span>
+                        </h1>
+                    </div>
+                    <div>
+                        <p class="job"><span class="multitext"></span></p>
+                        <hr class="hr">
+                    </div>
+                    
+                    <div class="description">
+                        <p>As a passionate web developer, I'm ready to bring your ideas to life by creating captivating and innovative digital experiences.</p>
+                        <!-- <p>Avec mes compétences en conception, développement et intégration, je peux créer des sites web réactifs et conviviaux qui combinent des interfaces utilisateur exceptionnelles avec une performance optimale et une qualité supérieure.</p> -->
+                        <!-- <p>De la création de superbes interfaces utilisateur à l'optimisation des performances et à l'assurance qualité, je suis là pour vous offrir des solutions personnalisées et adaptées à vos besoins. </p> -->
+                    </div>
+                    <div>
+                        <button class="button-contact" style="opacity: 1;">
+                            <a href="#get-in-touch">Get in touch</a>
+                        </button>
+                    </div>
+                </div>
+                <!-- gallery photos -->
+                <div class="photos-profil">
+                    <!-- <img  src="./photos/blob.svg" alt=""> -->
+                    <div class="box">
+                        <div class="content">
+                            <img src="./photos/TOONME-SPENCER.PNG" alt="" id="pictureImage">
+                            <h3>Spencer WAWAKU <br>
+                            <span>Frontend Developer</span></h3>
+                            <button><a href="">Hire me</a></button>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- gallery photos -->
+            </div>
+            <!-- social-media -->
+            <div>
+                <ul class="social-media" style="opacity: 1;">
+                    <li>
+                        <a href="https://www.instagram.com/your-instagram-url" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/spe9110" target="_blank">
+                            <i class="fab fa-github"></i>
+                            <span>Github</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/SpencerNsitu" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                            <span>Twitter</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/spencer.wawaku" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                            <span>Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.tiktok.com/@dev_spe?_t=8fJ9lNS7zHd&_r=1" target="_blank">
+                            <i class="fab fa-tiktok"></i>
+                            <span>Tiktok</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/spencer-nsitu-zola-971b75136/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            <span>Linkedin</span>
+                        </a>
+                    </li>                  
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=pPt_zlqKCT4" target="_blank">
+                            <i class="fa-brands fa-youtube"></i>
+                            <span>Youtube</span>
+                        </a>
+                    </li>                  
+                </ul>
+            </div>
+        </section>
+        <!-- SECTION 2: TEXT INFINITE SCROLL -->
+        <section class="text-infinite">
+            <div class="scroll">
+                <div  class="text-scroll">
+                    <div>&nbsp;WE Turn your <span>ideas</span>into<span>digital reality</span>&nbsp;/Spencer<span>Digiweb</span>/&nbsp;subscribe into<span>Code with Spencer</span></div>
+                    <div>&nbsp;WE Turn your <span>ideas</span>into<span>digital reality</span>&nbsp;/Spencer<span>Digiweb</span>/&nbsp;subscribe into<span>Code with Spencer</span></div>
+                </div>
+            </div>
+        </section>
+        <!-- section 3 : ABOUT ME -->
+        <section id="about-me" class="about">
+            <div class="about-container">
+                <div class="photo-auto-slider">
+                    <!-- design -->
+                    <div id="design-bground"></div>
+                    <!-- slide -->
+                    <div class="photo-slides">
+                        <!-- radio-buttons-start -->
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <!-- radio-buttons-end -->
+                        <!-- image slide start -->
+                        <div class="slide first1">
+                            <img src="./photos/TOONME-SPENCER.PNG" alt="">
+                        </div>
+                        <div class="slide">
+                            <img class="mySlides" src="./photos/IMG_5538.JPG" alt="">
+                        </div>
+                        <div class="slide">
+                            <img class="mySlides" src="./photos/IMG_5550.JPG" alt="">
+                        </div>
+                        <!-- image slide start -->
+
+                        <!-- automatic navigation -->
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                        </div>
+                        <!-- automatic navigation -->
+                        <!-- manuel navigation -->
+                        <div class="navigation-manuel">
+                            <label for="radio2" id="manuel-btn"></label>
+                            <label for="radio3" id="manuel-btn"></label>
+                            <label for="radio1" id="manuel-btn"></label>
+                        </div>
+                        <!-- manuel navigation -->
+                    </div>
+                </div>
+                <div class="about-content">
+                    <div>
+                        <h3 class="about-title">About Me</h3>
+                        <div class="switch-box">
+                            <div class="button-box">
+                                <div id="btn"></div>
+                                <button class="toggle-btn" onclick="switchLeft()">Info</button>
+                                <button class="toggle-btn" onclick="switchRight()">Skill</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-info">
+                        <div class="about-info-text">
+                            <h3>I'm Spencer Wawaku, I am a Frontend Developer freelance based in Rennes at France and I'm a Icodethis Pro member.</h3>
+                            <p>I create responsive and user-friendly websites that combine exceptional user interfaces with optimal performance and superior quality.  I am here to provide you with customized solutions tailored to your needs.</p>
+                            <!-- <span>I work on</span> -->
+                        </div>
+                        <div id="list-knowlege">
+                            <div id="list-skill">
+                                <img src="./photos/icons8-html-48.png" alt="">
+                                <span>HTML</span>
+                            </div>
+                            <div id="list-skill">
+                                <img src="./photos/icons8-css-48.png" alt="">
+                                <span>CSS</span>
+                            </div>
+                            <div id="list-skill">
+                                <img src="./photos/icons8-tailwind-css-48.png" alt="">
+                                <span>Tailwind CSS</span>
+                            </div>
+                            <div id="list-skill">
+                                <img src="./photos/icons8-javascript-48.png" alt="">
+                                <span>Javascript</span>
+                            </div>
+                            <div id="list-skill">
+                                <img src="./photos/icons8-react-native-48.png" alt="">
+                                <span>React JS</span>
+                            </div>
+                            <div id="list-skill">
+                                <img src="./photos/icons8-jquery-50.png" alt="">
+                                <span>Jquery</span>
+                            </div>
+                            <div id="list-skill">
+                                <img src="./photos/icons8-git-48.png" alt="">
+                                <span>Git</span>
+                            </div>
+                            <div id="list-skill">
+                                <img src="./photos/icons8-github-48.png" alt="">
+                                <span>Gitub</span>
+                            </div>
+                            <div id="list-skill">
+                                <img src="./photos/icons8-wordpress-48.png" alt="">
+                                <span>WordPress</span>
+                            </div>
+                            <div id="list-skill">
+                                <img src="./photos/icons8-microsoft-word-2019-48.png" alt="">
+                                <span>MS Word</span>
+                            </div>
+                            <div id="list-skill">
+                                <img src="./photos/icons8-microsoft-excel-2019-48.png" alt="">
+                                <span>MS Excel</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-skill hide" id="your-skill">
+                        <div class="programming">
+                            <h4>Programming skills</h4>
+                            <h5>HTML</h5>
+                            <div class="progess-bar">
+                                <div class="html"><span>84%</span></div>
+                            </div>
+                            <h5>CSS</h5>
+                            <div class="progess-bar">
+                                <div class="css"><span>84%</span></div>
+                            </div>
+                            <h5>Javascript</h5>
+                            <div class="progess-bar">
+                                <div class="javascript"><span>52%</span></div>
+                            </div>
+                            <h5>React JS</h5>
+                            <div class="progess-bar">
+                                <div class="react"><span>45%</span></div>
+                            </div>
+                            <h5>Jquery</h5>
+                            <div class="progess-bar">
+                                <div class="jquery"><span>45%</span></div>
+                            </div>
+                            <h5>Tailwind CSS</h5>
+                            <div class="progess-bar">
+                                <div class="tailwind"><span>70%</span></div>
+                            </div>
+                            
+                        </div>
+                        <div class="microsoft">
+                            <h4>Others skills</h4>
+                            <div class="container-soft">
+
+                                <div class="circle-progress">
+                                    <h5 class="progressValue">95<span>%</span></h5>
+                                    <h6>Word</h6>
+                                </div>
+                                <div class="circle-progress excel">
+                                    <h5 class="excelValue">95<span>%</span></h5>
+                                    <h6>Excel</h6>
+                                </div>
+                                <div class="circle-progress wordpress">
+                                    <h5 class="wordpressValue">95<span>%</span></h5>
+                                    <h6>WordPress</h6>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- services sections -->
+        <section id="services" class="services">
+            <div class="decorOne"></div>
+            <div class="decortwo"></div>
+            <div class="decorthree"></div>
+            <div id="service-content">
+                <h2>Services</h2>
+                <p class="help">I can help you with</p>
+                <div class="container">
+                    <div class="service-card" id="service-one">
+                        <h1 class="number">01</h1>
+                        <div id="icons-img">
+                            <img src="./photos/icons8-code-48.png" alt="">
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>I can create website that adapt optimally to various devices and screen sizes, providing a consistent and enjoyable user experience.</p>
+                    </div>
+                    <div class="service-card" id="service-two">
+                        <h1 class="number">02</h1>
+                        <div id="icons-img">
+                            <img src="./photos/icons8-photo-64.png" alt="">
+                        </div>
+                        <h3>Digital Marketing & Photography</h3>
+                        <p>We provide the pub service, promotion of product, support politics campagn and we provide the photos services for divers events.</p>
+                    </div>
+                    <div class="service-card" id="service-three">
+                        <h1 class="number">03</h1>
+                        <div id="icons-img">
+                            <img src="./photos/icons8-performance-100.png" alt="">
+                        </div>
+                        <h3>Performance Optimization</h3>
+                        <p>Improve website speed and efficiency by optimizing resource loading, using caching techniques, and reducing server requests.</p>
+                    </div>
+                    <div class="service-card" id="service-four">
+                        <h1 class="number">04</h1>
+                        <div id="icons-img">
+                            <img src="./photos/icons8-portail-de-maintenance-en-ligne-100.png" alt="">
+                        </div>
+                        <h3>Maintenance and Updates</h3>
+                        <p>Provide maintenance services to ensure websites remain functional, secure, and compliant with the latest web standards and technologies.</p>
+                    </div>
+                    <div class="service-card" id="service-five">
+                        <h1 class="number">05</h1>
+                        <div id="icons-img">
+                            <img src="./photos/icons8-seo-64.png" alt="">
+                        </div>
+                        <h3>Search Engine Optimization (SEO)</h3>
+                        <p>Optimize websites for search engines by implementing on-page SEO practices such as keyword optimization, meta tags, schema markup, and ensuring proper site structure.</p>
+                    </div>
+                    <div class="service-card" id="service-six">
+                        <h1 class="number">06</h1>
+                        <div id="icons-img">
+                            <img src="./photos/icons8-effets-visuels-100.png" alt="">
+                        </div>
+                        <h3>Animation Effects</h3>
+                        <p>Offer specialized animations such as parallax scrolling, hover effects, and transitions that add visual appeal and interactivity to the user interface.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of services sections -->
+
+        <!-- Timer statistic -->
+        <section class="about-statistic">
+            <div id="about-stat">
+                <div id="stat" class="border-experience">
+                    <span><i class="fa-solid fa-calendar-days"></i></span>
+                    <span class="number">
+                        1
+                    </span>
+                    <span>Year of Experience</span>
+                </div>
+                <div id="stat" class="border-experience">
+                    <span><i class="fa-solid fa-briefcase"></i></span>
+                    <span class="number" id="twelve">
+                        12+
+                    </span>
+                    <span>Projects completed</span>
+                </div>
+                <div id="stat">
+                    <span><i class="fa-brands fa-youtube"></i></span>
+                    <span class="number" id="subscriber">
+                        40+
+                    </span>
+                    <span>Subscribers</span>
+                </div>
+            </div>
+        </section>
+        <!-- end of Timer statistic -->
+        <!-- videos section -->
+        <section id="videos" class="videos">
+            <div class="video-container">
+                <h3>Videos</h3>
+                <p>My video on youtube</p>
+                <div class="main-video">
+                    <div class="video-one" id="video-one">
+                        <div class="card-fit">
+                            <a href="https://www.youtube.com/watch?v=pPt_zlqKCT4&t=4s" ><img src="/photos/cabinet_wawaku.PNG" alt="photo of a youtube video"></a>
+                            <span class="banner">Web Dev</span>
+                        </div>
+                        <div class="text">
+                            <h3>A lawyer website</h3>
+                            <p>This is a demo of a lawyer website build with HTML, CSS, Javascript and TailwindCss framework</p>
+                        </div>
+                        <button>
+                            <a href="https://www.youtube.com/watch?v=pPt_zlqKCT4&t=4s">Watch</a>
+                        </button>
+                    </div>
+                    <div class="video-one" id="video-two">
+                        <div class="card-fit">
+                            <a href="https://www.youtube.com/watch?v=pPt_zlqKCT4&t=4s" ><img src="https://media.istockphoto.com/id/1399000708/fr/photo/couple-romantique-heureux-debout-ensemble-tenant-un-bouquet-et-touchant-le-front-tout-en.jpg?s=612x612&w=0&k=20&c=pC3lDsL4095r8FxNPDgcrVImSeE1K-xadvp7qVo-baY=" alt="photo of a youtube video"></a>
+                            <span class="banner">Word</span>
+                        </div>
+                        <div class="text">
+                            <h3>Wedding Card</h3>
+                            <p>In this tutorial I show you I to create a wedding card using microsoft word.</p>
+                        </div>
+                        <button>
+                            <a href="https://www.youtube.com/watch?v=pPt_zlqKCT4&t=4s">Watch</a>
+                        </button>
+                    </div>
+                    <div class="video-one" id="video-three">
+                        <div class="card-fit">
+                            <a href="https://www.youtube.com/watch?v=pPt_zlqKCT4&t=4s" ><img src="/photos/map.PNG" alt="photo of a youtube video"></a>
+                            <span class="banner">Web Dev</span>
+                        </div>
+                        <div class="text">
+                            <h3>How to embed a map in HTML and CSS</h3>
+                            <p>In this tutorial I show you how you can integrate a map in the  form using HTML and CSS</p>
+                        </div>
+                        <button>
+                            <a href="https://www.youtube.com/watch?v=pPt_zlqKCT4&t=4s">Watch</a>
+                        </button>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- end of videos section -->
+        <!-- SECTION 2: TEXT INFINITE SCROLL -->
+        <section class="text-infinite-second">
+            <div class="scroll-second">
+                <div class="text-scroll-second">
+                    <div>&nbsp;Thanks to my 50 Subscribers <span>Subscribe</span> subscribe to Code with Spencer<span>Merci à mes abonnés</span>&nbsp;/ abonnes-toi <span>Merci à mes 5O abonnés </span></div>
+                    <div>&nbsp;Thanks to my 50 Subscribers <span>Subscribe</span> subscribe to Code with Spencer<span>Merci à mes abonnés</span>&nbsp;/ abonnes-toi <span>Merci à mes 5O abonnés </span></div>
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section id="get-in-touch" class="getintouch">
+            <div class="contact-text">
+                <h3>Get in touch</h3>
+            </div>
+            <div class="getintouch-main">
+                <div class="getintouch-image">
+                    <div class="bg-image"></div>
+                    <div class="getintouch-description">
+                        <p>If you have any specific matters  feel free to let me know.</p>
+                    </div>
+                </div>
+                <div class="getintouch-content">
+                    <form action="" class="form" autocomplete="off">
+                        <!-- firstname -->
+                        <div class="form-control">
+                            <label for="fname" class="required">Firstname</label>
+                            <input type="text" name="firstname"               id="firstname" placeholder="Firstname" onkeyup="validateFirstName()">
+                            <small id="firstname-error"></small>
+                        </div>
+                        <!-- Lastname -->
+                        <div class="form-control">
+                            <label for="fname" class="required">Lastname</label>
+                            <input type="text" name="noms" 
+                        id="lastname" placeholder="Lastname"
+                        onkeyup="validateLastName()">
+                        <small id="lastname-error"></small>
+                        </div>
+                        <!-- Subject -->
+                        <div class="form-control">
+                            <label for="fname" class="required">Subject</label>
+                            <input type="text" name="subject" 
+                            id="subject" placeholder="Subject"
+                            onkeyup="validateSubjet()">
+                            <small id="subjet-error"></small>
+                        </div>
+                        <!-- email -->
+                        <div class="form-control">
+                            <label for="fname" class="required">Email</label>
+                            <input type="email" name="email"
+                            id="email" placeholder="Email"
+                            onkeyup="validateEmail()">
+                            <small id="email-error"></small>
+                        </div>
+                        <!-- message -->
+                        <div class="form-control">
+                            <label for="fname" class="required">Message</label>
+                            <textarea rows="4" cols="20" 
+                            id="message" placeholder="Message"
+                            onkeyup="validateMessage()"></textarea>
+                            <small id="message-error"></small>
+                        </div>
+                        <div class="control-submit">
+                            <button id="submit-btn" type="button"
+                            onclick="return validateForm()">SEND</button>
+                            <!-- <small class="submit-error"></small> -->
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="success-msg">
+                <div class="success-msg-content">
+                    <h3>Thank you Spencer</h3>
+                    <p>Your Message has been successfully submitted.</p>
+                </div>
+                <div class="design-bg"></div>
+                <img src="/photos/6-2-success-png-image.png" alt="" class="photo-success">
+                <div class="success-exit">
+                    <i class="fa-solid fa-xmark" id="exit-btn"></i>
+                </div>
+            </div>
+            <div class="fail-msg">
+                <div class="fail-msg-content">
+                    <h3>Oops! Incomplete form</h3>
+                    <p>Please, complete the form.</p>
+                </div>
+                <div class="fail-design-bg"></div>
+                <img src="/photos/6659895.png" class="photo-fail">
+                <!-- <div class="fail-exit">
+                    <i class="fa-solid fa-xmark" onclick="closePopup()"></i>
+                </div> -->
+            </div>
+        </section>
+        <div class="active" id="overlay"></div>
+        <!-- end of contact -->
+    </main>
+    <!-- main -->
+    <!-- footer -->
+    <footer class="footer">
+        <div class="copyright">
+            Design by Spencer Digiweb
+        </div>
+        <div class="footer-container">
+            <div class="footer-social">
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com/your-instagram-url" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/spe9110" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/SpencerNsitu" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/spencer.wawaku" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.tiktok.com/@dev_spe?_t=8fJ9lNS7zHd&_r=1" target="_blank">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/spencer-nsitu-zola-971b75136/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>                  
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=pPt_zlqKCT4" target="_blank">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>                  
+                </ul>
+            </div>
+            <div id="navList">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#videos">videos</a></li>
+                    <li>
+                        <a href="#get-in-touch">Get in touch</a>
+                    </li>
+                </ul>
+            </div>
+            <p>Copyright &copy; 2023 Spencer WAWAKU. All right reserved.</p>
+        </div>
+        <a class="back-top" href="#top">
+            <i class="fa-solid fa-chevron-up"></i>
+        </a>
+    </footer>
+    <!-- footer -->
+
+    <!-- animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="./gsap.js"></script>
+
+    <!-- cdn typedeffect -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- script -->
+    <script src="./JS/app.js"></script>
+</body>
+</html>
