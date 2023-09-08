@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1PY0F9BMV7"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5H7PSL1G83"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    gtag('config', 'G-1PY0F9BMV7');
+        gtag('config', 'G-5H7PSL1G83');
     </script>
 
     <meta charset="UTF-8">
@@ -31,9 +32,9 @@
         <!-- Open Graph Protocol -->
     <meta property="og:title" content="Spencer Wawaku - Frontend Developer and Digital Marketer">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.spencer-wawaku.com">
+    <meta property="og:url" content="https://spencer-portfolio-prod.web.app/">
     <meta property="og:description" content="I specialize in creating responsive and optimized websites, improving website speed, providing SEO services, and offering website animations, photography, and digital marketing solutions. Explore my portfolio and services.">
-    <meta property="og:image" content="https://www.spencer-wawaku.com/photos/TOONME-SPENCER.JPG">
+    <meta property="og:image" content="https://spencer-portfolio-prod.web.app/public/photos/TOONME-SPENCER.JPG">
 
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/25e32fa677.js" crossorigin="anonymous"></script>
@@ -53,7 +54,7 @@
     </script>
 
 </head>
-<body>
+<body id="root">
     <header>
         <div class="logo">
             <div class="photo">
@@ -65,13 +66,13 @@
         </div>
         <nav class="navbar">
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about-me">About me</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#videos">videos</a></li>
+                <li><a href="#" id="home-link">Home</a></li>
+                <li><a href="#about-me" id="aboutme-link">About me</a></li>
+                <li><a href="#services" id="services-link">Services</a></li>
+                <li><a href="#videos" id="videos-link">videos</a></li>
                 <!-- <li><a href="">Blog</a></li> -->
                 <button class="true-contact">
-                    <a href="#get-in-touch">Get in touch</a>
+                    <a href="#get-in-touch" id="getintouch-link">Get in touch</a>
                 </button>
             </ul>
 
@@ -108,8 +109,6 @@
                     
                     <div class="description">
                         <p>As a passionate web developer, I'm ready to bring your ideas to life by creating captivating and innovative digital experiences.</p>
-                        <!-- <p>Avec mes compétences en conception, développement et intégration, je peux créer des sites web réactifs et conviviaux qui combinent des interfaces utilisateur exceptionnelles avec une performance optimale et une qualité supérieure.</p> -->
-                        <!-- <p>De la création de superbes interfaces utilisateur à l'optimisation des performances et à l'assurance qualité, je suis là pour vous offrir des solutions personnalisées et adaptées à vos besoins. </p> -->
                     </div>
                     <div>
                         <button class="button-contact" style="opacity: 1;">
@@ -125,7 +124,7 @@
                             <img src="./photos/TOONME-SPENCER.PNG" alt="" id="pictureImage">
                             <h3>Spencer WAWAKU <br>
                             <span>Frontend Developer</span></h3>
-                            <button><a href="">Hire me</a></button>
+                            <!-- <button><a href="">Hire me</a></button> -->
                         </div>
                     </div>
 
@@ -136,7 +135,7 @@
             <div>
                 <ul class="social-media" style="opacity: 1;">
                     <li>
-                        <a href="https://www.instagram.com/your-instagram-url" target="_blank">
+                        <a href="https://www.instagram.com/spen1012/" target="_blank">
                             <i class="fab fa-instagram"></i>
                             <span>Instagram</span>
                         </a>
@@ -407,7 +406,6 @@
             </div>
         </section>
         <!-- end of services sections -->
-
         <!-- Timer statistic -->
         <section class="about-statistic">
             <div id="about-stat">
@@ -443,7 +441,7 @@
                 <div class="main-video">
                     <div class="video-one" id="video-one">
                         <div class="card-fit">
-                            <a href="https://www.youtube.com/watch?v=pPt_zlqKCT4&t=4s" ><img src="/photos/cabinet_wawaku.PNG" alt="photo of a youtube video"></a>
+                            <a href="https://www.youtube.com/watch?v=pPt_zlqKCT4&t=4s" ><img src="./photos/cabinet_wawaku.PNG" alt="photo of a youtube video"></a>
                             <span class="banner">Web Dev</span>
                         </div>
                         <div class="text">
@@ -469,7 +467,7 @@
                     </div>
                     <div class="video-one" id="video-three">
                         <div class="card-fit">
-                            <a href="https://www.youtube.com/watch?v=pPt_zlqKCT4&t=4s" ><img src="/photos/map.PNG" alt="photo of a youtube video"></a>
+                            <a href="https://www.youtube.com/watch?v=pPt_zlqKCT4&t=4s" ><img src="./photos/map.PNG" alt="photo of a youtube video"></a>
                             <span class="banner">Web Dev</span>
                         </div>
                         <div class="text">
@@ -560,7 +558,7 @@
                     <p>Your Message has been successfully submitted.</p>
                 </div>
                 <div class="design-bg"></div>
-                <img src="/photos/6-2-success-png-image.png" alt="" class="photo-success">
+                <img src="./photos/6-2-success-png-image.png" alt="" class="photo-success">
                 <div class="success-exit">
                     <i class="fa-solid fa-xmark" id="exit-btn"></i>
                 </div>
@@ -571,7 +569,7 @@
                     <p>Please, complete the form.</p>
                 </div>
                 <div class="fail-design-bg"></div>
-                <img src="/photos/6659895.png" class="photo-fail">
+                <img src="./photos/6659895.png" class="photo-fail">
                 <!-- <div class="fail-exit">
                     <i class="fa-solid fa-xmark" onclick="closePopup()"></i>
                 </div> -->
@@ -590,7 +588,7 @@
             <div class="footer-social">
                 <ul>
                     <li>
-                        <a href="https://www.instagram.com/your-instagram-url" target="_blank">
+                        <a href="https://www.instagram.com/spen1012/" target="_blank">
                             <i class="fab fa-instagram"></i>
                         </a>
                     </li>
@@ -646,8 +644,9 @@
     <!-- footer -->
 
     <!-- animation -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
     <script src="./gsap.js"></script>
 
     <!-- cdn typedeffect -->
