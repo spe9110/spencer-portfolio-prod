@@ -15,7 +15,7 @@ function themeMode() {
         localStorage.setItem("theme", e);
 }
 darkModeBtn.addEventListener("click", themeMode);
-let typeAnimation = new Typed(".multitext", { strings: ["I'm a Front-End Developer", "I'm a Jurist", "I'm a Youtuber", "subscribe to my channel"], loop: !0, typeSpeed: 200, backSpeed: 80, backDelay: 1500 }),
+let typeAnimation = new Typed(".multitext", { strings: ["I'm a Front-End Developer", "I'm a Jurist", "I'm an Educator", "I'm a motivator", "subscribe to my channel"], loop: !0, typeSpeed: 200, backSpeed: 80, backDelay: 1500 }),
     copy = document.querySelector(".text-scroll").cloneNode(!0);
 document.querySelector(".scroll").appendChild(copy);
 let counter = 1;
@@ -78,8 +78,6 @@ let countProject = 0,
     stopCountSubscribers = setInterval(() => {
         countSubscriber++, (subscriber.textContent = `${countSubscriber}+`), 50 == countSubscriber && clearInterval(stopCountSubscribers);
     }, 100);
-
-// back to top
 const backTop = document.querySelector(".back-top"),
     socialMediaElement = document.querySelector(".social-media");
 function scrolltotop() {
@@ -91,8 +89,6 @@ function socialMedia() {
 window.onscroll = function () {
     scrolltotop(), socialMedia();
 };
-
-
 const errorFirstName = document.getElementById("firstname-error"),
     errorLastName = document.getElementById("lastname-error"),
     errorSubject = document.getElementById("subjet-error"),
@@ -218,20 +214,13 @@ exitBtn.addEventListener("click", (e) => {
             })
             .catch((e) => console.log(e));
     });
-
-// ROUTER
-const anchorLinks = document.querySelectorAll('.navbar a[href^="#"]');
-const menuToggle = document.querySelector('.navbar');
-anchorLinks.forEach(anchorLink => {
-    anchorLink.addEventListener('click', function(e) {
+const anchorLinks = document.querySelectorAll('.navbar a[href^="#"]'),
+    menuToggle = document.querySelector(".navbar");
+anchorLinks.forEach((e) => {
+    e.addEventListener("click", function (e) {
         e.preventDefault();
-        const targetId = this.getAttribute('href').substring(1);
-        const targetSection = document.getElementById(targetId);
-        if (targetSection) {
-            targetSection.scrollIntoView({ behavior: 'smooth' });
-            if (window.innerWidth <= 768) {
-                document.querySelector("html").classList.remove("open");
-            }
-        }
+        let t = this.getAttribute("href").substring(1),
+            r = document.getElementById(t);
+        r && (r.scrollIntoView({ behavior: "smooth" }), window.innerWidth <= 768 && document.querySelector("html").classList.remove("open"));
     });
 });
